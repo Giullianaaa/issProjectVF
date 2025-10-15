@@ -1,0 +1,148 @@
+
+/* Grid de imagens */
+.imagens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.img-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.img-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.img-card p {
+  font-size: 0.9em;
+  color: #666;
+}
+.materiais {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.materiais .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.materiais h2 {
+  font-size: 1.8em;
+  color: #8A9A5B;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.materiais h3 {
+  font-size: 1.3em;
+  color: #8A9A5B;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.materiais ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.materiais li {
+  line-height: 1.6;
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.materiais p {
+  font-size: 0.95em;
+  color: #444;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.calculo {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.calculo .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.calculo h2 {
+  font-size: 1.6em;
+  color: #8A9A5B;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.formula {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f8;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+/* Estilo da fração */
+.frac {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.frac .num {
+  display: block;
+  border-bottom: 1px solid #000;
+  padding: 0 4px;
+}
+
+.frac .den {
+  display: block;
+  padding: 0 4px;
+}
+
+.calculo p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.calculo ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+.calculo li {
+  line-height: 1.6;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+
+/* Responsivo: 1 coluna no celular */
+@media (max-width: 768px) {
+  .imagens {
+    grid-template-columns: 1fr;
+  }
+}

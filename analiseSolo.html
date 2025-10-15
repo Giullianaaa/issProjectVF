@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Análise de Solo - ISS Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Resp.css">
+  <link rel="stylesheet" href="styleDadosClima.css">
+  <link rel="stylesheet" href="soloStyle.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">ISS Project</div>
+    <nav>
+      <a href="index.html">Voltar ao Início</a>
+    </nav>
+  </header>
+
+
+  <section class="section">
+    <section class="analise-solo" id="analise-solo">
+      <div class="container">
+        <h2>Análise do Solo</h2>
+        <p>A amostra de solo coletada na região foi analisada conforme o Manual de Métodos de Análise de Solo da Embrapa. O procedimento adotado seguiu as etapas descritas no manual:</p>
+
+        <section class="materiais">
+          <div class="container">
+            <h2>Material e Equipamentos</h2>
+            <ul>
+              <li>Balança com precisão de 0,001 g.</li>
+              <li>Estufa com controle de temperatura (pelo menos 105 ºC).</li>
+              <li>Mufla com controle de temperatura para 600 ºC.</li>
+              <li>Cadinhos de porcelana.</li>
+              <li>Dessecador com sílica gel.</li>
+              <li>Espátulas.</li>
+            </ul>
+
+            <h2>Procedimento</h2>
+            <h3>Incineração do Solo</h3>
+            <ul>
+              <li>Pesar 5,00 g de solo (TFSA), macerado e peneirado a 80 mesh.</li>
+              <li>Dispor em cadinho de porcelana.</li>
+              <li>Deixar na estufa a 65 ºC por 24 horas.</li>
+              <li>Retirar da estufa e deixar em dessecador até esfriar.</li>
+            </ul>
+
+            <p>
+              Em solo com sinais de carbonatos ou bicarbonatos, deve-se separar uma amostra e adicionar
+              quantidades de solução de HCl diluído (1:10) até não se observar efervescência. Após esse
+              processo, secar em estufa a 40 ºC. Essa amostra será macerada e utilizada para a
+              determinação dos elementos.
+            </p>
+
+            <ul>
+              <li>Pesar e anotar a massa do solo seco no cadinho de porcelana.</li>
+              <li>Retornar o solo seco no cadinho de porcelana para a mufla, regular a temperatura a 600 ºC e deixar por
+                6 horas.</li>
+              <li>Retirar o cadinho de porcelana e deixar em dessecador até esfriar.</li>
+              <li>Pesar o resíduo (solo incinerado) no cadinho de porcelana frio.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="calculo">
+          <div class="container">
+            <h2>Cálculo</h2>
+
+            <div class="formula">
+              <p><strong>MOS</strong> = <span class="frac"><span class="num">(Ms – Mr)</span><span
+                    class="den">Ms</span></span> × 1000</p>
+            </div>
+
+            <p><strong>Em que:</strong></p>
+            <ul>
+              <li><strong>MOS</strong> – concentração de matéria orgânica do solo, em g·kg⁻¹.</li>
+              <li><strong>Ms</strong> – massa do solo seco em estufa a 65 ºC, em g.</li>
+              <li><strong>Mr</strong> – massa do resíduo após mufla a 600 ºC, em g.</li>
+            </ul>
+          </div>
+        </section>
+
+         <h2>Nossos Resultados</h2>
+        <p>Registros e resultados obtidos:</p>
+
+        <div class="imagens">
+          <div class="img-card">
+            <img src="tabela1.png">
+          </div>
+          <div class="img-card">
+            <img src="tabela2.png">
+          </div>
+          <div class="img-card">
+            <img src="porcentagemSolo.png">
+          </div>
+          <div class="img-card">
+            <img src="soloImg1.png">
+          </div>
+          <div class="img-card">
+            <img src="soloImg2.png">
+          </div>
+          <div class="img-card">
+            <img src="imgFigura4.png">
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- Botão de retorno -->
+  <div class="centralizar">
+    <button class="btnRef" onclick="window.location.href='index.html'">
+      Voltar para página principal
+    </button>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 - Projeto ISS | Desenvolvido por Giulliana Viana Correia Coura</p>
+  </footer>
+
+</body>
+
+</html>
